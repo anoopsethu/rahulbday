@@ -3,6 +3,11 @@
 <head>
 	<title>Fuck Education!</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+	<link rel="shortcut icon" href="favicon.ico" />
+
 	<link rel="stylesheet" type="text/css" href="css/normalize.css">
 	<style type="text/css">
 		body{
@@ -14,11 +19,14 @@
 			padding: 50px 0px;
 			position: relative;
 		}
-		.content a{
+		.main-card-container{
+			display: inline-block;
+		}
+		.footer-container{
 			display: block;
 		}
 		.main-card{
-			width: 480px;
+			width: 460px;
 			position: relative;
 			top: 0px;
 			transition: all 0.2s ease-in;
@@ -31,7 +39,7 @@
 		}
 		.footer{
 			margin-top: 30px;
-			height: 30px;
+			height: 58px;
 			transition: all 0.2s ease-in;
 			opacity: 1;
 		}
@@ -47,15 +55,15 @@
 			}
 			.footer{
 				margin-top: 20px;
-				height: 25px;
+				height: 48px;
 			}
 		}
 	</style>
 </head>
 <body>
 	<div class="content">
-		<a href="https://www.linkedin.com/in/rahul-menon-b08166a8/" target="_blank"><img src="img/rahul-bday-card.png" class="main-card"></a>
-		<a href="https://www.linkedin.com/in/rahul-menon-b08166a8/" target="_blank"><img src="img/rahul-bday-footer.png" class="footer"></a>
+		<a href="https://www.linkedin.com/in/rahul-menon-b08166a8/" target="_blank" class="main-card-container"><img src="img/rahul-bday-card.png" class="main-card"></a>
+		<a href="https://www.linkedin.com/in/rahul-menon-b08166a8/" target="_blank" class="footer-container"><img src="img/rahul-bday-footer.png" class="footer"></a>
 	</div>
 </body>
 </html>
